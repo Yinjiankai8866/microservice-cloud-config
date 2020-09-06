@@ -14,6 +14,15 @@ spring:
 server: 
   port: 4002 #端口号 
 spring:
-  profiles: dev # 生产环境
+  profiles: prod # 生产环境
   application:
     name: microservice-config-prod
+ 
+ 
+--- 
+server: 
+  port: 4003 #端口号 
+spring:
+  profiles: aaa # 生产环境
+  application:
+    name: microservice-config-aaa
